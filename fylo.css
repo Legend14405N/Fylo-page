@@ -1,0 +1,767 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition: all 800ms; */
+}
+/* Nav styling starts here */
+ul a:hover{
+    color: hsl(224, 93%, 58%);
+}
+.ul-style ul,a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.fylo-logo img{
+    width: 82%;
+}
+.top ul{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+.hovv button:hover{
+    background-color: hsla(224, 93%, 58%, 0.726);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+/* nav syling ends here  */
+
+/* main body styling is to begin from this part */
+/* Fisrt part starting from here */
+.start-part{
+    padding: 42px;
+}
+.ill-1 img{
+    width: 100%;
+    margin:60px auto 30px;
+}
+
+.start-text h1{
+    font-size: 35px;
+    text-align: center;
+    color: hsl(243, 87%, 12%);
+    margin: 0px 0px 20px 0px;
+}
+.start-text p{
+    color: hsl(243, 87%, 12%);
+    font-size: 20px;
+    width: 96%;
+    text-align: center;
+}
+/* I tried styling this input type but i tried giving it width and margin AUTO and it does not seem to be working */
+
+.start-form input{
+    width: 100%;
+    padding: 15px 10px;
+    margin: 15px 0px 17px;
+    border-radius: 4px;
+    border: 1px solid hsl(243, 87%, 12%);
+
+}
+
+.start-form button{
+    display: block;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 17px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 1px 1px 11px .1px gray;
+    margin-bottom: 20px;
+}
+
+/* this is pretty much it for the first part of the page */
+
+/* The next part of the page is to start around here but theres a kind of backgroun pattern and i'm not entirely sure of how to place it like it was in the design */
+
+/* Neverthelss the styling of the second section is to start around here */
+.more-part{
+    padding: 38px;
+    background-color: hsl(240, 75%, 98%);
+}
+
+.ill-2 img{
+    width: 100%;
+    margin:60px auto 30px;
+}
+
+.more-text h1{
+    color: hsl(243, 87%, 12%);
+    font-size: 22px;
+    text-align: center;
+    margin: 57px auto 20px;
+}
+
+.more-text p{
+    font-size: 21px;
+    color:  hsl(238, 22%, 44%) ;
+    margin: 0px auto 20px;
+}
+
+.more-form{
+    display: flex;
+    justify-content: center;
+}
+
+.more-form a{
+    padding: 4px;
+    align-items: center;
+    display: flex;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid;
+    font-size: 19px;
+    text-align: center;
+
+}
+
+.comments img{
+    width: 10%;
+}
+.comments{
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+    margin: 65px 0px 70px 0px;
+    box-shadow: 0px 0px 12px .5px hsl(0, 0%, 75%);
+}
+
+.comments p{
+    font-size: 17.88px;
+    line-height: 25px;
+}
+.avater img{
+    border-radius: 50%;
+    width: 13%;
+}
+.avater{
+    display: flex;
+    margin: 14px 0px 0px 0px;
+    gap: 15px;
+    align-items: center;
+}
+.name h2{
+    font-size: 16px;
+    font-weight: 900;
+}
+.name h4{
+    font-size: 14px;
+}
+
+.close-part{
+    background-color: hsl(238, 22%, 44%);
+    padding: 70px;
+}
+.close-text h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.close-text p{
+    color: white;
+    font-size: 20px;
+    margin:20px auto;
+    text-align: center;
+    width: 100%;
+    line-height: 24px;
+}
+
+.nnn{
+    width: 90%;
+    margin: auto;
+}
+.nnn button{
+    box-shadow: 0px 1px 0px 1px hsl(239, 24%, 37%);
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+    padding: 40px;
+}
+.fylo-close{
+    width: 60%;
+    color: white;
+    margin: 20px 0px 0px ;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px ;
+    gap: 16px;
+    color: white;
+    font-size: 19px;
+}
+a{
+    width: fit-content;
+}
+.bottom a{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+}
+.bb{
+    margin-bottom: 40px;
+}
+
+/*************** 
+First breakpoint
+*************/
+
+@media screen and (max-width:330px) {
+    .fylo-logo img{
+        width: 40%;
+    }
+    .top ul{
+        gap: 8px;
+        font-size: 10px;
+    }
+    nav{
+        padding: 20px;
+    }
+
+    .start-part{
+        padding: 22px;
+    }
+    .ill-1 img{
+        width: 100%;
+        margin:20px auto 0px;
+    }
+    
+    .start-text h1{
+        font-size: 25px;
+        width: 80%;
+        margin:20px auto;
+    }
+    .start-text p{
+        font-size: 14px;
+        margin: auto;
+        width: 96%;
+        text-align: center;
+    }
+    
+
+    .more-part{
+        padding: 20px;
+    }
+    
+    .more-text h1{
+        font-size: 19px;
+        margin: 47px auto 20px;
+    }
+    
+    .more-text p{
+        font-size: 15px;
+        margin: 10px auto 20px;
+    }
+    
+    .more-form a{
+        font-size: 14px;
+    }
+    
+    .comments img{
+        width:7%;
+    }
+    .comments{
+        padding: 22px;
+    }
+
+    .comments p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .avater img{
+        border-radius: 50%;
+        width: 10%;
+    }
+
+    .name h2{
+        font-size: 11px;
+        font-weight: 900;
+    }
+    .name h4{
+        font-size: 9px;
+    }
+    
+    .close-part{
+        padding: 29px;
+    }
+    .close-text h1{
+        font-size: 19px;
+    }
+    .close-text p{
+        font-size: 16px;
+        margin:14px auto;
+        line-height: 20px;
+    }
+    footer{
+        padding: 15px;
+    }
+    .fylo-close{
+        width: 40%;
+    }
+    .contact{
+        font-size: 15px;
+    }
+    
+    .bottom a{
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .bb{
+        margin-bottom: 40px;
+    }
+}
+
+/***************************** 
+2nd breakpoint
+ ********************************/
+
+ @media screen and (min-width:330px) {
+    .fylo-logo img{
+        width: 55%;
+    }
+    .top ul{
+        gap: 10px;
+        font-size: 13px;
+    }
+    nav{
+        padding: 15px;
+    }
+
+    .start-part{
+        padding: 22px;
+    }
+    .ill-1 img{
+        width: 100%;
+        margin:20px auto 15px;
+    }
+    
+    .start-text h1{
+        font-size: 25px;
+        width: 90%;
+        margin:19px auto;
+    }
+    .start-text p{
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    .more-part{
+        padding: 15px;
+    }
+    
+    .more-text h1{
+        font-size: 19px;
+        margin: 39px auto 20px;
+    }
+    
+    .more-text p{
+        font-size: 15px;
+        width: 90%;
+        margin: 10px auto 20px;
+    }
+    
+    .more-form a{
+        font-size: 14px;
+    }
+    
+    .comments img{
+        width:7%;
+    }
+    .comments{
+        padding: 22px;
+    }
+
+    .comments p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .avater img{
+        border-radius: 50%;
+        width: 15%;
+    }
+
+    .name h2{
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .name h4{
+        font-size: 11px;
+    }
+    
+    .close-part{
+        padding: 29px;
+    }
+    .close-text h1{
+        font-size: 19px;
+    }
+    .close-text p{
+        font-size: 17px;
+        margin:20px auto;
+        text-align: center;
+        line-height: 24px;
+    }
+    footer{
+        padding: 20px;
+    }
+    .fylo-close{
+        width: 40%;
+    }
+    .contact{
+        font-size: 17px;
+    }
+    
+    .bottom a{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .bb{
+        margin-bottom: 40px;
+    }
+}
+
+/**************************************************************
+3rd breakpoint
+ ***************************************************************/
+@media screen and (min-width:400px) {
+        .fylo-logo img{
+        width: 65%;
+    }
+    .top ul{
+        gap: 13.55px;
+        font-size: 16px;
+    }
+    nav{
+        padding: 20px;
+    }
+
+    .start-part{
+        padding: 25px;
+    }
+
+    .start-text h1{
+        font-size: 25px;
+        width: 80%;
+        margin:19px auto;
+    }
+    .start-text p{
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    .more-part{
+        padding: 15px;
+    }
+    
+    .more-text h1{
+        font-size: 19px;
+        margin: 39px auto 20px;
+    }
+    
+    .more-text p{
+        font-size: 15px;
+        width: 95%;
+        margin: 10px auto 20px;
+    }
+    
+    .more-form a{
+        font-size: 14px;
+    }
+    
+}
+/******************************************************* 
+Fourth Breakpoint
+ *****************************************************/
+
+@media screen and (min-width:530px) {
+    .comments{
+        width: 79%;
+        margin:24px auto 30px;
+    }
+    
+    .close-part p{
+        width: 80%;
+        font-size: 20px;
+    }
+}
+/******************************************************* 
+Fifth Breakpoint
+ *****************************************************/
+
+ @media screen and (min-width:570px) {
+      .fylo-logo img{
+        width: 75%;
+    }
+    .top ul{
+        gap: 15px;
+        font-size: 20px;
+    }
+    nav{
+        padding: 30px;
+    }
+
+    .start-part{
+        padding: 30px;
+    }
+    .start-text h1{
+        font-size: 35px;
+        width: 78%;
+    }
+    .start-text p{
+        font-size: 22px;
+        width: 83%;
+        margin: auto;
+    }
+    
+    .more-part{
+        padding: 30px;
+    }
+    
+    .more-text h1{
+        font-size: 30px;
+        margin: 39px auto 20px;
+    }
+    
+    .more-text p{
+        font-size: 24px;
+        width: 90%;
+        margin: 10px auto 20px;
+    }
+    
+    .more-form a{
+        font-size: 22px;
+    }
+    
+
+    .comments{
+        padding: 25px;
+    }
+
+    .comments p{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .avater img{
+        border-radius: 50%;
+        width: 10%;
+    }
+
+    .name h2{
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .name h4{
+        font-size: 14px;
+    }
+    
+    .close-part{
+        padding: 24px;
+    }
+    .close-text h1{
+        font-size: 25px;
+    }
+    .close-text p{
+        font-size: 28px;
+        margin:20px auto;
+        text-align: center;
+        line-height: 30px;
+    }
+    footer{
+        padding: 50px;
+    }
+    .fylo-close{
+        width: 35%;
+    }
+    .contact{
+        font-size: 22px;
+    }
+    
+    .bottom a{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .bb{
+        margin-bottom: 40px;
+    }
+}
+/* ************************************
+sixth breakpoint
+************************************/
+
+@media screen and (min-width:830px) {
+    nav{
+        padding: 45px;
+    }
+    .start-part{
+        padding: 50px;
+        display: flex;
+        /* padding: 100px; */
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .start-text h1{
+        font-size: 28px;
+        line-height: 38px;
+        width: 110%;
+        margin: 0px;
+        text-align: left;
+    }
+.start-text p{
+    margin:20px 0px;
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    word-spacing: 2px;
+    /* line-height: 28px; */
+}
+.top ul{
+    gap: 50px;
+    font-size: 16px;
+}
+    .start-form{
+        width: 66%;
+    }
+div.ill-2.comp{
+    width: fit-content;
+}
+    .ill-2 img{
+        width: 100%;
+        margin: auto;
+        padding-top: 90px;
+    }
+
+    .more-part{
+        display: flex;
+        padding: 50px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .more-form {
+        display: flex;
+        justify-content: unset;
+    }
+    .more-text{
+        width: 100%;
+    }
+    .more-part h1{
+        font-size: 25px;
+        text-align: left;
+        padding: 0;
+        margin: 60px 0px 0px 0px;
+    }
+
+    .more-part p{
+        font-size: 17px;
+        margin: 0px;
+    }
+    .more-form a{
+        font-size: 15px;
+    }
+    .nnn{
+        padding: 15px 0px 20px 0px;
+    }
+
+    .comments{
+        margin: 20px 0px 0px 0px;
+        padding: 12px;
+    }
+    .comments p{
+        font-size: 15px;
+    }
+    .name h2{
+        font-size: 15px;
+    }
+    .name h4{
+        font-size: 10px;
+    }
+    .name{
+        width: 100%;
+    }
+
+
+    .close-part{
+        display: flex;
+        padding: 60px 49px;
+        margin: 0;
+    }
+    .close-text h1{
+        font-size: 37px;
+        text-align: left;
+    }
+    .close-text p{
+        font-size: 19px;
+        text-align: left;
+        padding: 30px 0px 14px 0px ;
+        margin: 0;
+    }
+.nnn button{
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    /* text-align: left; */
+    margin-right: auto;
+}
+.meek{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+.contact p{
+    font-size: 18px;
+}
+.bottom ul{
+    font-size: 15px;
+}
+.fylo-close{
+    width: 15%;
+}
+}
+
+@media screen and (min-width:980px) {
+    .start-text h1{
+        width: 70%;
+    }
+    .start-text p{
+        width: 85%;
+    }
+    .bb{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+
+    }
+    .start-form button{
+        padding: 15px;
+        width: 70%;
+        margin: 0px 0px;
+    }
+    .comments {
+        height: 200px;
+        width: 300px;
+    }
+    .fylo-close img{
+        width: 15%;
+        margin-bottom: 40px;
+    }
+    .nnn button{
+        width: 50%;
+    }
+}
+
+
